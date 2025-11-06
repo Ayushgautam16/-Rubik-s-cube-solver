@@ -1,4 +1,4 @@
-# Qbr
+Rubik-s-cube-solver
 
 Qbr, pronounced as Cuber, is a webcam-based 3x3x3 rubik's cube solver written in
 Python 3 and OpenCV.
@@ -236,18 +236,6 @@ Solution: B2 U2 F' R U D' L' B' U L F U F2 R2 F2 D' F2 D R2 D2
 20. Turn the bottom layer 180 degrees.
 ```
 
-# Inspirational sources
-
-Special thanks to [HaginCodes](https://github.com/HaginCodes) for the main
-inspiration on how to improve my color detection.
-
-https://github.com/HaginCodes/3x3x3-Rubiks-Cube-Solver
-
-http://programmablebrick.blogspot.com/2017/02/rubiks-cube-tracker-using-opencv.html
-
-https://gist.github.com/flyboy74/2cc3097f784c8c236a1a85278f08cddd
-
-https://github.com/dwalton76/rubiks-color-resolver
 
 # License
 
