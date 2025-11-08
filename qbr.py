@@ -65,18 +65,4 @@ class Qbr:
             print('\033[0;33m[{}] {}'.format(i18n.t('error'), i18n.t('cubeAlreadySolved')))
         sys.exit(code)
 
-if __name__ == '__main__':
-    # Define the application arguments.
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        '-n',
-        '--normalize',
-        default=False,
-        action='store_true',
-        help='Shows the solution normalized. For example "R2" would be: \
-              "Turn the right side 180 degrees".'
-    )
-    args = parser.parse_args()
 
-    # Run Qbr with all arguments.
-    Qbr(args.normalize).run()
